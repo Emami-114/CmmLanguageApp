@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "988571113049",
+    "project_id": "languagelearn-434e2",
+    "storage_bucket": "languagelearn-434e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988571113049:android:a5b66f4c0ec3d94acfc348",
+        "android_client_info": {
+          "package_name": "org.emami.CmmLanguageApp.androidApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSSoiwyWUn25-MhWb-JpyJj5HSl_N9pXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
