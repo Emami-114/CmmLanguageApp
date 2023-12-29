@@ -10,10 +10,13 @@ import dev.gitlive.firebase.firestore.FirebaseFirestore
 import dev.gitlive.firebase.firestore.firestore
 import dev.gitlive.firebase.initialize
 import org.emami.CmmLanguageApp.App
+import org.emami.CmmLanguageApp.di.getSharedModules
+import org.koin.core.context.startKoin
 import java.awt.Dimension
 
 fun main() = application {
 //   val db = Firebase.firestore
+    startKoin { modules(getSharedModules()) }
 
     Window(
         title = "CmmLanguageApp",

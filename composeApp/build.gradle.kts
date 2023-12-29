@@ -87,6 +87,7 @@ kotlin {
         jvmMain.dependencies {
             implementation(compose.desktop.common)
             implementation(compose.desktop.currentOs)
+
         }
 
         jsMain.dependencies {

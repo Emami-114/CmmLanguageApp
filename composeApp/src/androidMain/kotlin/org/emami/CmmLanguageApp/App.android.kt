@@ -8,6 +8,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import dev.gitlive.firebase.Firebase
 import dev.gitlive.firebase.initialize
+import org.emami.CmmLanguageApp.di.getSharedModules
+import org.koin.core.context.startKoin
 
 class AndroidApp : Application() {
     companion object {
@@ -16,6 +18,7 @@ class AndroidApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        startKoin { modules(getSharedModules()) }
         INSTANCE = this
     }
 }
